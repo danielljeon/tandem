@@ -63,7 +63,8 @@ STM32L432KC secondary controller to primary Nerve controller.
 | PA4         | SPI1_NSS    |            | RFM95CW Pin 5: NSS    |                                     |
 | PA6         | SPI1_MISO   |            | RFM95CW Pin 2: MISO   |                                     |
 | PA7         | SPI1_MOSI   |            | RFM95CW Pin 3: MOSI   |                                     |
-| PB0         | GPIO_Output |            | RFM95CW Pin 6: NRESET | Default reset, pull low to turn on. |
+| PB1         | GPIO_Output |            | RFM95CW Pin 6: NRESET | Default reset, pull low to turn on. |
+| PB0         | GPIO_EXTI0  |            | RFM95CW Pin 14: DIO0  |                                     |
 | PB6         | I2C1_SCL    |            | BMP390 Pin 2: SCK     |                                     |
 | PB7         | I2C1_SDA    |            | BMP390 Pin 4: SDI     |                                     |
 | PA10        | USART1_RX   | 115200 bps | GPS (TBD)             |                                     |
@@ -71,7 +72,7 @@ STM32L432KC secondary controller to primary Nerve controller.
 | PA11        | CAN1_RX     |            | TJA1051T/3 Pin 4: RXD |                                     |
 | PA12        | CAN1_TX     |            | TJA1051T/3 Pin 1: TXD |                                     |
 | PB1         | GPIO_Output |            | Reserved              |                                     |
-| PA8         | GPIO_Output |            | Reserved              |                                     |
+| PA5         | GPIO_Output |            | Reserved              |                                     |
 
 </details>
 
